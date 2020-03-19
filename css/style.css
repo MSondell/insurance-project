@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:lightgrey;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    border: 1px solid #ff4136;
+}
+
+.grid {
+    display: grid;
+    max-width: 80%;
+    grid-template-columns: repeat(6,1fr);
+    border: 1px solid black;
+  }
